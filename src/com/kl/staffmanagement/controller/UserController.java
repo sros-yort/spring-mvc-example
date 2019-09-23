@@ -12,4 +12,5 @@ public class UserController {
     public String userManagement() {
         return "/user/user-list";
     }
+
 }

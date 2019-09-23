@@ -41,7 +41,7 @@ public class UserRepos {
     }
 
 
-    public List userList() {
+    public List<User> getAll() {
         Criteria criteria = sessionFactory.openSession().createCriteria(User.class);
         return criteria.list();
     }
