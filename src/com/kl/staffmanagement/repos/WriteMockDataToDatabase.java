@@ -1,7 +1,6 @@
-package com.kl.staffmanagement.service;
+package com.kl.staffmanagement.repos;
 
 import com.kl.staffmanagement.model.User;
-import com.kl.staffmanagement.repos.UserRepos;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,8 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.sql.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 @Service
 public class WriteMockDataToDatabase {
